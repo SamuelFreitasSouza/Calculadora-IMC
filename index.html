@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="img/png" href="assets/calculadora.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Calcular IMC</title>
+</head>
+<body>
+
+    
+
+    <form id="form">
+        <div class="form-group">
+            <h1 id="title">Calculadora de IMC</h1>
+            
+            <label class="peso">Peso (Kg):</label>
+            <input type="text" nome="peso" id="peso" placeholder="Exemplo 65" /> <i class="fa-solid fa-weight-scale"></i> <br/><br/>
+
+            <label class="altura">Altura (Cm):</label>
+            <input type="text" nome="altura" id="altura" placeholder="Exemplo 1.62" /> <i class="fa-solid fa-ruler-combined"></i> <br/><br/>
+
+            <a type="button" id="button">Calcular IMC <i class="fa-solid fa-calculator"></i></a>
+
+            <div id="resultado"></div>
+        </div>
+    </form>
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
