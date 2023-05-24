@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+#form{
+    width: 33%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #353535;
+}
+
+.form-group{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 10% 18%;
+    gap: 1%;
+}
+
+#title {
+    margin-bottom: 15%;
+    font-size: 18px;
+    color: #fafafa;
+}
+
+.peso{
+    font-size: 15px;
+    color: #fafafa;
+}
+
+#peso{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #9EEFC3;
+    margin-top: 8px;
+    color:#fafafa;
+    font-family:'Press Start 2P', cursive;
+    padding: 13px;
+}
+
+#altura{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #9EEFC3;
+    margin-top: 8px;
+    color:#fafafa;
+    font-family:'Press Start 2P', cursive;
+    padding: 13px;
+}
+
+
+.altura{
+    font-size: 15px;
+    color: #fafafa;
+}
+
+#button{
+    margin-top: 1%;
+    font-size: 15px;
+    background-color: #9EEFC3;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+}
+.fa-weight-scale{
+    position: relative;
+    bottom: 38px;
+    left: 310px;
+    color: #fafafa;
+    font-size: 25px
+}
+
+.fa-ruler-combined{
+    position: relative;
+    bottom: 38px;
+    left: 310px;
+    color: #fafafa;
+    font-size: 25px
+}
+
+.fa-calculator{
+    font-size: 25px;
+    margin-left:10px;
+}
+
+#resultado{
+    color: #fafafa;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 15px;
+}
